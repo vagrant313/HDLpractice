@@ -1,0 +1,250 @@
+$date
+	Sun Jul  3 17:24:28 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module day14_tb $end
+$var wire 8 ! grnt [7:0] $end
+$var parameter 32 " NUM_PORTS $end
+$var reg 8 # req [7:0] $end
+$scope module DAY14 $end
+$var wire 8 $ req [7:0] $end
+$var wire 8 % grnt [7:0] $end
+$var parameter 32 & NUM_PORTS $end
+$scope begin genblk1[1] $end
+$var parameter 2 ' i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 ( i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 ) i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 * i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 + i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 , i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 - i $end
+$upscope $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 . i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 -
+b110 ,
+b101 +
+b100 *
+b11 )
+b10 (
+b1 '
+b1000 &
+b1000 "
+$end
+#0
+$dumpvars
+b0 .
+bx00x00xz %
+b10010010 $
+b10010010 #
+bx00x00xz !
+$end
+#5
+b0x00000z !
+b0x00000z %
+b1000000 #
+b1000000 $
+b1 .
+#10
+b0x0z !
+b0x0z %
+b100 #
+b100 $
+b10 .
+#15
+b0xx000z !
+b0xx000z %
+b110001 #
+b110001 $
+b11 .
+#20
+bx0000xxz !
+bx0000xxz %
+b10000110 #
+b10000110 $
+b100 .
+#25
+bx000xxz !
+bx000xxz %
+b11000110 #
+b11000110 $
+b101 .
+#30
+b0xx00xz !
+b0xx00xz %
+b110010 #
+b110010 $
+b110 .
+#35
+b0x00z !
+b0x00z %
+b1001 #
+b1001 $
+b111 .
+#40
+bx000000z !
+bx000000z %
+b10000000 #
+b10000000 $
+b1000 .
+#45
+bx0000xxz !
+bx0000xxz %
+b10000110 #
+b10000110 $
+b1001 .
+#50
+bx0xxx0xz !
+bx0xxx0xz %
+b10111011 #
+b10111011 $
+b1010 .
+#55
+bx00xxxxz !
+bx00xxxxz %
+b10011110 #
+b10011110 $
+b1011 .
+#60
+bx0xxz !
+bx0xxz %
+b11110110 #
+b11110110 $
+b1100 .
+#65
+bx000xxz !
+bx000xxz %
+b11000110 #
+b11000110 $
+b1101 .
+#70
+bx0z !
+bx0z %
+b11111100 #
+b11111100 $
+b1110 .
+#75
+b0xx000xz !
+b0xx000xz %
+b1100011 #
+b1100011 $
+b1111 .
+#80
+b1100010 #
+b1100010 $
+b10000 .
+#85
+b0x0x0x0z !
+b0x0x0x0z %
+b1010101 #
+b1010101 $
+b10001 .
+#90
+bx00xz !
+bx00xz %
+b11110010 #
+b11110010 $
+b10010 .
+#95
+b0xxx0xz !
+b0xxx0xz %
+b111011 #
+b111011 $
+b10011 .
+#100
+b0x00z !
+b0x00z %
+b1001 #
+b1001 $
+b10100 .
+#105
+bx000xxz !
+bx000xxz %
+b11000111 #
+b11000111 $
+b10101 .
+#110
+bx00z !
+bx00z %
+b11111001 #
+b11111001 $
+b10110 .
+#115
+b0xx00xxz !
+b0xx00xxz %
+b1100111 #
+b1100111 $
+b10111 .
+#120
+b0xxx0x0z !
+b0xxx0x0z %
+b1110100 #
+b1110100 $
+b11000 .
+#125
+b0xx000xz !
+b0xx000xz %
+b1100010 #
+b1100010 $
+b11001 .
+#130
+bx0x0xxxz !
+bx0x0xxxz %
+b10101110 #
+b10101110 $
+b11010 .
+#135
+b0x0xxxxz !
+b0x0xxxxz %
+b1011110 #
+b1011110 $
+b11011 .
+#140
+b0x0xxz !
+b0x0xxz %
+b10110 #
+b10110 $
+b11100 .
+#145
+b0xx00xz !
+b0xx00xz %
+b110010 #
+b110010 $
+b11101 .
+#150
+b0xx000z !
+b0xx000z %
+b110001 #
+b110001 $
+b11110 .
+#155
+bx0000x0z !
+bx0000x0z %
+b10000101 #
+b10000101 $
+b11111 .
+#160
+b100000 .
